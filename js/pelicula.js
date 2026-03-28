@@ -44,6 +44,5 @@ if (!pelicula) {
         <embed src="https://www.youtube.com/v/${pelicula.Link}" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="580" height="400">
     </div>
     `
-    // Mostrar el contenido en la página
     document.getElementById('contenido-interno').innerHTML = html
 }
